@@ -1,10 +1,11 @@
-# Título del trabajo
+# DOOR LOCK
 
-Descripción breve del proyecto a realizar (2-3 frases).
+El proyecto a reaalizar se trata de un cerrojo, con alarma, que se abrirá con contraseña introducida por teclado.
 
 ## Integrantes del equipo
 
-Nombres, apellidos, y usuario GitHub de los integrantes del equipo.
+Adrián González Denia: ADRIANGDENIA.
+Jorge fernández Jiménez: Jorgefernandezjimenez11.
 
 ## Objetivos del trabajo
 
