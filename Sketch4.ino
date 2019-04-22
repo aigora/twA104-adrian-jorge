@@ -1,9 +1,4 @@
-/*
- Name:		Sketch4.ino
- Created:	4/16/2019 2:44:07 PM
- Author:	Adri
-*/
-// Incluímos la librería para poder controlar el servo
+
 
 #include <Keypad.h>
 #include <Key.h>
@@ -31,8 +26,8 @@ void loop() {
 
 		//variables
 		
-		static char contrasenaantigua[] = "    "; //contraseña antigua, se guardara cuando cambie la contraseña
-		static char contrasena[] = "0000";  //aquí escribimos la contraseña de 4 dígitos
+		static char contrasenaantigua[] = "    "; //contraseÃ±a antigua, se guardara cuando cambie la contraseÃ±a
+		static char contrasena[] = "0000";  //aquÃ­ escribimos la contraseÃ±a de 4 dÃ­gitos
 		static int cambio = 0, cursor = 0;
 		
 		char teclas = keypad.getKey(); //se guarda en la variable teclas el caracter de la tecla presionada
@@ -44,7 +39,7 @@ void loop() {
 			}
 			if (cambio < 4 && teclas == '*')
 			{
-				Serial.print("\nCONTRASEÑA ANTIGUA: ");
+				Serial.print("\nCONTRASEÃ‘A ANTIGUA: ");
 				contrasenaantigua[cambio] = contrasena[cambio];
 				Serial.print(contrasenaantigua);
 
@@ -58,7 +53,7 @@ void loop() {
 				}
 				else
 				{
-					Serial.print("\nCONTRASEÑA NUEVA: ");
+					Serial.print("\nCONTRASEÃ‘A NUEVA: ");
 					contrasena[cursor] = teclas;
 					Serial.print(contrasena);
 
